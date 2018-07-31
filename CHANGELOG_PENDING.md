@@ -9,6 +9,7 @@ BREAKING CHANGES:
 - [abci] Changed time format from int64 to google.protobuf.Timestamp
 - [abci] Changed Validators to LastCommitInfo in RequestBeginBlock
 - [abci] Added address of the original proposer of the block to Header.
+- [abci] Change ABCI Header to match Tendermint exactly
 
 FEATURES:
 - [tools] Added `make check_dep`
